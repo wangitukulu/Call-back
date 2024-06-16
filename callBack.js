@@ -1,3 +1,5 @@
+// Callback function
+
 let startEl = document.getElementById('start'); // buttons brought into javascript file
 let stopEl = document.getElementById('stop'); // buttons brought into the file
 let u = 1;
@@ -5,7 +7,7 @@ let x ;
 function startButton() {
     x = setInterval(() => {
         console.log(u);
-         u ++;      // increament
+         u ++;      // call back to increment the output by 1
          
     }, 1000);  // every one second ,the variable u is added by 1
 
